@@ -1,5 +1,6 @@
+# Component Info
 info:
-  component: Config Server
+ component: SpringConfig-Server
 
 # HTTP Server
 server:
@@ -12,8 +13,7 @@ spring:
       server:
         git:
           uri: https://github.com/jmangialomini/Spring.Cloud.Config.Server
-          #https://github.com/spring-cloud-samples/config-repo
-          #https://github.com/jmangialomini/Spring.Cloud.Config.Server
+
   # Spring properties        
   profiles: 
     active: dev  
